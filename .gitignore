@@ -1,0 +1,14 @@
+.DS_Store
+.vscode/
+node_modules/
+*.py
+*.txt
+*-blueprint*.md
+*-SUMMARY.md
+about-page-final.md
+COMPLETION-CHECKLIST.md
+QUICKSTART.md
+portfolio_descriptions.md
+* Images/
+* images/
+!assets/images/
