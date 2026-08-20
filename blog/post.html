@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post | Abdullah Zafar</title>
+    <meta name="description" content="In-depth technical web development, Shopify, WordPress, and SEO guide by Abdullah Zafar.">
+    <meta name="robots" content="index, follow" id="robotsMeta">
+    <link rel="canonical" href="https://abdullahzafar.me/blog/" id="canonicalMeta">
+    
+    <!-- Open Graph Default -->
+    <meta property="og:type" content="article" id="ogTypeMeta">
+    <meta property="og:title" content="Blog Post | Abdullah Zafar" id="ogTitleMeta">
+    <meta property="og:description" content="Technical guide by Abdullah Zafar." id="ogDescMeta">
+    <meta property="og:url" content="https://abdullahzafar.me/blog/" id="ogUrlMeta">
+    <meta property="og:image" content="https://abdullahzafar.me/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp" id="ogImageMeta">
+
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/icons/Abdullah%20Zafar%20Favicon.png" type="image/png">
+    <link rel="stylesheet" href="../css/new-design-system.css">
+    <link rel="stylesheet" href="../css/blog-new.css">
+
+    <!-- Dynamic Schema Placeholder -->
+    <script type="application/ld+json" id="schemaPlaceholder">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Floating Navbar -->
+    <nav class="navbar" id="mainNavbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="../Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp" alt="Abdullah Zafar" class="logo-avatar" width="44" height="44">
+                <span class="logo-name">Abdullah Zafar</span>
+            </a>
+            <div class="nav-links">
+                <a href="/#services">Services</a>
+                <a href="/#works">Works</a>
+                <a href="/#resume">Resume</a>
+                <a href="/#skills">Skills</a>
+                <a href="/#testimonials">Testimonials</a>
+                <a href="/blog/" class="active">Blog</a>
+                <a href="/contact.html">Contact</a>
+            </div>
+            <div class="nav-right">
+                <a href="/contact.html" class="btn btn-primary btn-sm" style="border-radius:100px;padding:8px 20px;">Contact Me!</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Post Header -->
+    <header class="post-header-section" id="postHeader">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav class="post-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="sep">/</span>
+                <a href="/blog/">Blog</a>
+                <span class="sep">/</span>
+                <a href="#" id="breadcrumbCat">Category</a>
+                <span class="sep">/</span>
+                <span id="breadcrumbTitle" style="color:var(--white);font-weight:500">Post Title</span>
+            </nav>
+
+            <div class="post-header-meta">
+                <span class="post-cat-badge" id="postCatBadge">Category</span>
+                <span class="post-date" id="postPubDate" style="color:rgba(255,255,255,0.7)">Publication Date</span>
+                <span style="color:rgba(255,255,255,0.5);font-size:12.5px" id="postReadTime">• 5 min read</span>
+            </div>
+
+            <h1 class="post-h1" id="postMainTitle">Loading article…</h1>
+            <p class="post-excerpt-lead" id="postLeadExcerpt"></p>
+
+            <div class="post-info-bar">
+                <div class="post-info-item">
+                    <div class="post-author-avatar">AZ</div>
+                    <span style="color:var(--white);font-weight:600">Abdullah Zafar</span>
+                </div>
+                <div class="post-info-item">
+                    <span>Web Developer & SEO Specialist</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Image -->
+    <div class="post-featured-image-wrap" id="featuredImageWrap" style="display:none">
+        <div class="post-featured-image-inner">
+            <img id="postFeaturedImage" class="post-featured-image" src="" alt="" loading="eager">
+        </div>
+    </div>
+
+    <!-- Article Content & Sidebar -->
+    <div class="post-body-section">
+        <div class="post-layout">
+            
+            <!-- Article Body -->
+            <article class="post-article-content" id="articleBody">
+                <div class="blog-loading">
+                    <div class="spinner"></div>
+                    <p>Loading full article content…</p>
+                </div>
+            </article>
+
+            <!-- Sidebar (TOC + Sharing) -->
+            <aside class="post-sidebar">
+                <!-- TOC Widget -->
+                <div class="sidebar-toc" id="tocWidget" style="display:none">
+                    <h3>Table of Contents</h3>
+                    <ul class="toc-list" id="tocList"></ul>
+                </div>
+
+                <!-- Share Widget -->
+                <div class="share-widget">
+                    <h3>Share this Article</h3>
+                    <div class="share-buttons">
+                        <button class="share-btn twitter" onclick="shareTwitter()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                            X
+                        </button>
+                        <button class="share-btn linkedin" onclick="shareLinkedIn()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn
+                        </button>
+                        <button class="share-btn copy" onclick="copyPostLink()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                            Copy Link
+                        </button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Related Articles Section -->
+    <section class="related-posts-section" id="relatedSection" style="display:none">
+        <div class="container">
+            <h2 class="section-heading">Related Articles</h2>
+            <div class="related-grid" id="relatedGrid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="background:var(--charcoal-black);padding:60px 0 30px;color:white;border-top:1px solid rgba(255,255,255,0.08);">
+        <div class="container">
+            <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px">
+                <div>
+                    <div style="font-family:var(--font-heading);font-size:20px;font-weight:700;margin-bottom:12px">Abdullah Zafar</div>
+                    <p style="color:rgba(255,255,255,0.65);font-size:14px;line-height:1.7;max-width:380px">
+                        Custom WordPress, Shopify, Next.js developer and SEO Specialist based in Faisalabad, delivering high-speed, ranking web experiences.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Pages</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/" style="color:rgba(255,255,255,0.7)">Home</a></li>
+                        <li><a href="/#services" style="color:rgba(255,255,255,0.7)">Services</a></li>
+                        <li><a href="/blog/" style="color:var(--coral-red)">Blog</a></li>
+                        <li><a href="/contact.html" style="color:rgba(255,255,255,0.7)">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Legal</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/privacy-policy.html" style="color:rgba(255,255,255,0.7)">Privacy Policy</a></li>
+                        <li><a href="/terms-of-use.html" style="color:rgba(255,255,255,0.7)">Terms of Use</a></li>
+                        <li><a href="/disclaimer.html" style="color:rgba(255,255,255,0.7)">Disclaimer</a></li>
+                        <li><a href="/feedback.html" style="color:rgba(255,255,255,0.7)">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:rgba(255,255,255,0.4)">
+                <p>© 2026 Abdullah Zafar. All Rights Reserved.</p>
+                <p>Designed for Speed & Search Engine Dominance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/blog-post.js"></script>
+</body>
+</html>

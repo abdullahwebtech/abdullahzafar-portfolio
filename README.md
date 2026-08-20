@@ -39,7 +39,7 @@ jazibrehman-website/
 
 ### Homepage Sections
 1. ✅ **Hero Section** - Two-column layout with profile image and CTA
-2. ✅ **Stats Counter** - Animated counters (7 years, 50+ projects, 25+ clients, 18+ stores)
+2. ✅ **Stats Counter** - Animated counters (5+ years, 50+ projects, 25+ clients, 18+ stores)
 3. ✅ **Services Accordion** - Interactive accordion with 4 services
 4. ✅ **Portfolio Grid** - 2-column project showcase
 5. ✅ **Resume Section** - Two-column Experience & Education

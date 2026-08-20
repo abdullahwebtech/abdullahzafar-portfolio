@@ -101,8 +101,17 @@ document.addEventListener('DOMContentLoaded', function () {
     // Preview Button
     var previewButton = document.querySelector('.preview-button');
     if (previewButton) {
-        previewButton.addEventListener('click', function () {
-            window.open('#', '_blank');
+        previewButton.addEventListener('click', function (e) {
+            var url = previewButton.getAttribute('data-url') || previewButton.getAttribute('href');
+            if (url && url !== '#' && url !== '') {
+                window.open(url, '_blank', 'noopener,noreferrer');
+            } else {
+                e.preventDefault();
+                var gallery = document.querySelector('.portfolio-gallery');
+                if (gallery) {
+                    gallery.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
         });
     }
 });

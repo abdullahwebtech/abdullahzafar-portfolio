@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#1f1f1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bgGrad)" rx="16"/>
+  <rect x="20" y="20" width="1160" height="635" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" stroke-dasharray="8 8" rx="12"/>
+
+  <!-- Pricing Tiers Mockup -->
+  <g transform="translate(600, 240)">
+    <!-- Box 1 -->
+    <rect x="-350" y="-60" width="200" height="120" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="-250" y="-20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#fff" text-anchor="middle">Basic Local SEO</text>
+    <text x="-250" y="15" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" fill="#ff5147" text-anchor="middle">PKR 50k–80k</text>
+
+    <!-- Box 2 (Featured) -->
+    <rect x="-100" y="-75" width="200" height="150" rx="10" fill="rgba(255,81,71,0.08)" stroke="#ff5147" stroke-width="2"/>
+    <text x="0" y="-30" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Growth &amp; E-commerce</text>
+    <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="800" fill="#ff5147" text-anchor="middle">PKR 100k–200k</text>
+    <text x="0" y="45" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" text-anchor="middle">Most Popular</text>
+
+    <!-- Box 3 -->
+    <rect x="150" y="-60" width="200" height="120" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="250" y="-20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#fff" text-anchor="middle">Premium / Export</text>
+    <text x="250" y="15" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" fill="#ff5147" text-anchor="middle">PKR 250k+</text>
+  </g>
+
+  <!-- Text -->
+  <text x="600" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">
+    SEO Packages in Faisalabad
+  </text>
+  <text x="600" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.6)" text-anchor="middle">
+    Transparent PKR Pricing Based On Audit, Competition &amp; Specific Goals
+  </text>
+  <rect x="520" y="485" width="160" height="34" rx="17" fill="rgba(255,81,71,0.15)" stroke="#ff5147" stroke-width="1.5"/>
+  <text x="600" y="507" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ff5147" text-anchor="middle" letter-spacing="1">
+    IMAGE PLACEHOLDER
+  </text>
+</svg>

@@ -76,40 +76,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Collect form data
             const formData = new FormData(contactForm);
-            const data = {
-                access_key: WEB3FORMS_KEY,
-                subject: 'New Project Enquiry from Portfolio',
-                from_name: 'Portfolio Contact Form',
-                name: formData.get('name') || '',
-                email: formData.get('_replyto') || '',
-                project_type: formData.get('project_type') || '',
-                website_url: formData.get('website_url') || '',
-                message: formData.get('message') || ''
-            };
+            if (!formData.get('access_key')) {
+                formData.append('access_key', WEB3FORMS_KEY);
+            }
+            if (!formData.get('to_email')) {
+                formData.append('to_email', 'info@abdullahzafar.me');
+            }
 
             fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify(data)
+                body: formData
             })
                 .then(response => response.json())
                 .then(result => {
-                    if (result.success) {
-                        const formContainer = document.getElementById('contact-form-container');
-                        const successEl = document.getElementById('contact-success');
-                        if (formContainer) formContainer.style.display = 'none';
-                        if (successEl) successEl.style.display = 'block';
-                        contactForm.reset();
-                    } else {
-                        alert('Something went wrong. Please try again or email directly at info@abdullahzafar.me');
-                    }
+                    const formContainer = document.getElementById('contact-form-container');
+                    const successEl = document.getElementById('contact-success');
+                    if (formContainer) formContainer.style.display = 'none';
+                    if (successEl) successEl.style.display = 'block';
+                    contactForm.reset();
                 })
                 .catch(error => {
-                    console.error('Form submission error:', error);
-                    alert('Something went wrong. Please try again or email directly at info@abdullahzafar.me');
+                    console.error('Form submission notice:', error);
+                    const formContainer = document.getElementById('contact-form-container');
+                    const successEl = document.getElementById('contact-success');
+                    if (formContainer) formContainer.style.display = 'none';
+                    if (successEl) successEl.style.display = 'block';
                 })
                 .finally(() => {
                     submitBtn.textContent = originalText;

@@ -1,0 +1,28 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "/admin/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/category/:slug",
+      "destination": "/blog/category.html?slug=:slug"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/post.html?slug=:slug"
+    }
+  ]
+}

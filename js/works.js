@@ -14,12 +14,29 @@ const paginationCurrent = document.querySelector('.pagination-current');
 const paginationTotal = document.querySelector('.pagination-total');
 const paginationControls = document.querySelector('.pagination-controls');
 
+// Dynamically show/hide filter tabs based on whether cards exist with that category
+function updateTabVisibility() {
+    filterTabs.forEach(tab => {
+        const filter = tab.getAttribute('data-filter');
+        if (filter === 'all') {
+            tab.style.display = '';
+            return;
+        }
+        const hasProjects = allCards.some(card => {
+            const category = card.getAttribute('data-category') || '';
+            return category.split(/\s+/).includes(filter);
+        });
+        tab.style.display = hasProjects ? '' : 'none';
+    });
+}
+updateTabVisibility();
+
 // Get filtered cards based on current filter
 function getFilteredCards() {
     if (currentFilter === 'all') return allCards;
     return allCards.filter(card => {
-        const category = card.getAttribute('data-category');
-        return category.includes(currentFilter);
+        const category = card.getAttribute('data-category') || '';
+        return category.split(/\s+/).includes(currentFilter);
     });
 }
 
@@ -115,6 +132,19 @@ paginationNext.addEventListener('click', () => {
 });
 
 // Initial render
+// Check if URL has filter param or hash (e.g. works.html?filter=shopify or works.html#shopify)
+const urlParams = new URLSearchParams(window.location.search);
+const filterParam = urlParams.get('filter') || window.location.hash.replace('#', '');
+
+if (filterParam) {
+    const matchingTab = Array.from(filterTabs).find(tab => tab.getAttribute('data-filter') === filterParam);
+    if (matchingTab) {
+        filterTabs.forEach(t => t.classList.remove('active'));
+        matchingTab.classList.add('active');
+        currentFilter = filterParam;
+    }
+}
+
 renderCards();
 
 // Smooth scroll for anchor links

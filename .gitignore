@@ -1,14 +1,66 @@
+# OS & Editor
 .DS_Store
+**/.DS_Store
 .vscode/
 node_modules/
-*.py
-*.txt
-*-blueprint*.md
-*-SUMMARY.md
-about-page-final.md
-COMPLETION-CHECKLIST.md
-QUICKSTART.md
-portfolio_descriptions.md
-* Images/
-* images/
-!assets/images/
+
+# Large archives (not needed in repo)
+*.zip
+
+# Apache / Nginx config (irrelevant on Vercel)
+.htaccess
+admin/.htaccess
+
+# Netlify artifacts (irrelevant on Vercel)
+_redirects
+
+# Dev documentation & notes (internal only — keep README.md)
+CARD-SYMMETRY-FIXES-COMPLETE.md
+CONTACT-AND-MOBILE-FIXES-COMPLETE.md
+CRITICAL-FIXES-COMPLETE.md
+DEPLOYMENT-INSTRUCTIONS.md
+DEPLOYMENT.md
+DESIGN-SYSTEM-MIGRATION-COMPLETE.md
+DESIGN.md
+Disclaimer.md
+FAQ-AND-SPACING-FIXES.md
+FINAL-COMPLETE-FIXES.md
+FINAL-FIXES-COMPLETE.md
+FINAL-SERVICE-BUTTON-FIXES.md
+FINAL-TESTING-GUIDE.md
+FINAL-VERIFICATION-CHECKLIST.md
+IMPLEMENTATION-SUMMARY.md
+IMPROVEMENTS-SUMMARY.md
+PREMIUM-UI-UX-UPDATE.md
+PROJECT-SUMMARY.md
+QUICK-START-GUIDE.md
+QUICK-TEST-GUIDE.md
+SERVICES-HEIGHT-FIX.md
+SUPABASE-SETUP.md
+TESTIMONIALS-FINAL-FIX.md
+TESTIMONIALS-INFINITE-LOOP-FIX.md
+TESTIMONIALS-LOOP-FIX-V2.md
+TESTIMONIALS-MARQUEE-UPGRADE.md
+TESTING-CHECKLIST.md
+VISUAL-CHANGES-SUMMARY.md
+VISUAL-TESTING-GUIDE.md
+"Final Landing page content copy for abdullah zafar local seo (1).md"
+"Final Landing page content copy for abdullah zafar local seo.md"
+"Landing Page — Full SEO, GEO, AEO & Conversion Optimization Implementation Prompt.md"
+"Next.js Developer in Faisalabad Building Fast, SEO Ready Web Apps and SaaS.md"
+"SEO Expert in Faisalabad Getting You More Calls and Leads from Google.md"
+"Shopify Developer in Faisalabad Building Fast, Mobile Friendly Stores That Sell.md"
+"WordPress Developer in Faisalabad_ Building Custom, Fast, Mobile-Friendly Sites.md"
+"Privacy Policy.md"
+"Terms of Use.md"
+
+# Duplicate loose image files in root (assets/images/ is the canonical location)
+"Abdullah Zafar Footer Image - Abdullah Zafar Footer Image.webp"
+"Web developer in Faisalabad - Abdullah zafar.webp"
+
+# Root-level image directories (geotagged page images — large, not needed in repo)
+"Next.js page images/"
+"SEO page images/"
+"Shopify page images/"
+"landing page geotagged images/"
+"wordpress page geotagged images/"

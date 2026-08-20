@@ -1,198 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | WordPress & Shopify Dev Insights | Abdullah Zafar</title>
-    <meta name="description"
-        content="Read the latest insights, tutorials, and pro tips on WordPress and Shopify development from Abdullah Zafar, a leading e-commerce expert based in Faisalabad.">
-    <meta name="keywords" content="blog Abdullah Zafar, WordPress tutorials, Shopify development blog">
+    <title>Blog & E-Commerce Insights | Abdullah Zafar</title>
+    <meta name="description" content="Read in-depth guides, case studies, and proven strategies on SEO, WordPress development, Shopify stores, and web performance by Abdullah Zafar.">
+    <meta name="keywords" content="Abdullah Zafar Blog, SEO blog Faisalabad, WordPress tutorials, Shopify developer tips, web development insights">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Abdullah Zafar">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="canonical" href="https://abdullahzafar.me/blog/">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blog & E-Commerce Insights | Abdullah Zafar">
+    <meta property="og:description" content="Read in-depth guides and proven strategies on SEO, WordPress, Shopify, and web performance.">
+    <meta property="og:url" content="https://abdullahzafar.me/blog/">
+    <meta property="og:image" content="https://abdullahzafar.me/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp">
+
+    <!-- Fonts & CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/icons/Abdullah%20Zafar%20Favicon.png" type="image/png">
+    <link rel="stylesheet" href="../css/new-design-system.css">
+    <link rel="stylesheet" href="../css/blog-new.css">
+
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Abdullah Zafar Blog",
+      "url": "https://abdullahzafar.me/blog/",
+      "description": "Insights, guides, and practical tutorials on WordPress, Shopify, SEO, and web development.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Abdullah Zafar",
+        "url": "https://abdullahzafar.me"
+      }
+    }
+    </script>
 </head>
-
 <body>
-    <!-- Loading Screen -->
-    <div id="loading-screen">
-        <div class="loading-text">
-            <span>L</span>
-            <span>O</span>
-            <span>A</span>
-            <span>D</span>
-            <span>I</span>
-            <span>N</span>
-            <span>G</span>
-        </div>
-    </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
+    <!-- Floating Navbar -->
+    <nav class="navbar" id="mainNavbar">
         <div class="nav-container">
-            <div class="logo">Abdullah Zafar</div>
+            <a href="/" class="logo">
+                <img src="../Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp" alt="Abdullah Zafar" class="logo-avatar" width="44" height="44">
+                <span class="logo-name">Abdullah Zafar</span>
+            </a>
             <div class="nav-links">
-                <a href="../index.html#services">Services</a>
-                <a href="../index.html#works">Works</a>
-                <a href="../index.html#resume">Resume</a>
-                <a href="../index.html#skills">Skills</a>
-                <a href="../index.html#testimonials">Testimonials</a>
-                <a href="../index.html#contact">Contact</a>
+                <a href="/#services">Services</a>
+                <a href="/#works">Works</a>
+                <a href="/#resume">Resume</a>
+                <a href="/#skills">Skills</a>
+                <a href="/#testimonials">Testimonials</a>
+                <a href="/blog/" class="active">Blog</a>
+                <a href="/contact.html">Contact</a>
             </div>
             <div class="nav-right">
-                <button class="nav-cta">Contact Me!</button>
+                <a href="/contact.html" class="btn btn-primary btn-sm" style="border-radius:100px;padding:8px 20px;">Contact Me!</a>
             </div>
-            <button class="hamburger" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
+    <!-- Blog Hero -->
+    <header class="blog-hero">
         <div class="container">
-            <h1 class="page-title">Blog</h1>
-            <div class="breadcrumb">
-                <a href="../index.html">Home</a> > <span>Blog</span>
+            <div class="blog-hero-content">
+                <span class="blog-hero-eyebrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
+                    Knowledge Hub & Tutorials
+                </span>
+                <h1>Digital Marketing & Web Dev Blog</h1>
+                <p class="blog-hero-desc">Actionable guides, search engine optimization strategies, and technical tutorials to help you scale your online business.</p>
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Blog Posts -->
-    <section class="blog-archive">
+    <!-- Category Filter Tabs -->
+    <div class="blog-filter-section">
         <div class="container">
-            <div class="blog-posts">
-                <!-- Post 1 -->
-                <article class="blog-post-card">
-                    <div class="post-image">
-                        <img src="../assets/images/blog-ai.jpg" alt="AI Integration in WordPress" loading="lazy">
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <span class="post-category">AI Integration</span>
-                            <span class="post-date">September 1, 2025</span>
-                        </div>
-                        <h2 class="post-title">
-                            <a href="ai-integration-in-wordpress-websites-2025-guide/">AI Integration in WordPress
-                                Websites: 2025 Guide</a>
-                        </h2>
-                        <p class="post-excerpt">Discover how to integrate AI capabilities into your WordPress website in
-                            2025. From chatbots to content generation, learn the latest tools and techniques.</p>
-                        <a href="ai-integration-in-wordpress-websites-2025-guide/" class="read-more">Read More →</a>
-                    </div>
-                </article>
-
-                <!-- Post 2 -->
-                <article class="blog-post-card">
-                    <div class="post-image">
-                        <img src="../assets/images/blog-wordpress.jpg" alt="WordPress Development" loading="lazy">
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <span class="post-category">Website Development</span>
-                            <span class="post-date">November 28, 2024</span>
-                        </div>
-                        <h2 class="post-title">
-                            <a href="wordpress-website-development-from-installation-to-launch/">WordPress Website
-                                Development | From Installation to Launch</a>
-                        </h2>
-                        <p class="post-excerpt">A comprehensive guide to building a WordPress website from scratch.
-                            Learn the complete process from installation to launching your site.</p>
-                        <a href="wordpress-website-development-from-installation-to-launch/" class="read-more">Read More
-                            →</a>
-                    </div>
-                </article>
-
-                <!-- Post 3 -->
-                <article class="blog-post-card">
-                    <div class="post-image">
-                        <img src="../assets/images/blog-plugins.jpg" alt="WordPress Plugins" loading="lazy">
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <span class="post-category">Plugins</span>
-                            <span class="post-date">November 7, 2024</span>
-                        </div>
-                        <h2 class="post-title">
-                            <a href="the-ultimate-guide-to-wordpress-plugins-for-small-businesses-in-2024/">The Ultimate
-                                Guide to WordPress Plugins for Small Businesses in 2024</a>
-                        </h2>
-                        <p class="post-excerpt">Essential WordPress plugins every small business needs. Boost
-                            functionality, security, and performance with these must-have plugins.</p>
-                        <a href="the-ultimate-guide-to-wordpress-plugins-for-small-businesses-in-2024/"
-                            class="read-more">Read More →</a>
-                    </div>
-                </article>
-
-                <!-- Post 4 -->
-                <article class="blog-post-card">
-                    <div class="post-image">
-                        <img src="../assets/images/blog-speed.jpg" alt="WordPress Speed" loading="lazy">
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <span class="post-category">Website Speed Optimization</span>
-                            <span class="post-date">November 6, 2024</span>
-                        </div>
-                        <h2 class="post-title">
-                            <a href="building-a-fast-wordpress-website/">The Ultimate Guide to Building a Fast WordPress
-                                Website</a>
-                        </h2>
-                        <p class="post-excerpt">Learn proven techniques to optimize your WordPress website for
-                            lightning-fast performance. Improve user experience and SEO rankings.</p>
-                        <a href="building-a-fast-wordpress-website/" class="read-more">Read More →</a>
-                    </div>
-                </article>
+            <div class="blog-filter-inner" id="categoryFilterTabs">
+                <button class="cat-filter-btn active" data-category="">All Posts</button>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Search Section -->
+    <div class="blog-search-section">
+        <div class="container">
+            <div class="blog-search-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35"/></svg>
+                <input type="text" class="blog-search-input" id="blogSearchInput" placeholder="Search guides, strategies, tutorials…">
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Posts Grid -->
+    <main class="blog-archive-section">
+        <div class="container">
+            <div id="postsContainer">
+                <div class="blog-loading">
+                    <div class="spinner"></div>
+                    <p>Loading latest articles…</p>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="blogPagination" style="display:none"></div>
+        </div>
+    </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" style="background:var(--charcoal-black);padding:60px 0 30px;color:white;border-top:1px solid rgba(255,255,255,0.08);margin-top:60px">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <div class="footer-logo">Abdullah Zafar</div>
-                    <p class="footer-bio">I transform complex e-commerce challenges into high-performance digital
-                        experiences. From engineering 50,000+ product marketplaces to optimizing multi-store networks, I
-                        build integrity-focused solutions that connect global brands with their users.</p>
+            <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px">
+                <div>
+                    <div style="font-family:var(--font-heading);font-size:20px;font-weight:700;margin-bottom:12px">Abdullah Zafar</div>
+                    <p style="color:rgba(255,255,255,0.65);font-size:14px;line-height:1.7;max-width:380px">
+                        Custom WordPress, Shopify, Next.js developer and SEO Specialist based in Faisalabad, delivering high-speed, ranking web experiences.
+                    </p>
                 </div>
-
-                <div class="footer-column">
-                    <h4 class="footer-heading">Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="../index.html#services">Services</a></li>
-                        <li><a href="../index.html#works">Works</a></li>
-                        <li><a href="../index.html#resume">Resume</a></li>
-                        <li><a href="../index.html#skills">Skills</a></li>
-                        <li><a href="../index.html#testimonials">Testimonials</a></li>
-                        <li><a href="../index.html#contact">Contact</a></li>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Pages</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/" style="color:rgba(255,255,255,0.7)">Home</a></li>
+                        <li><a href="/#services" style="color:rgba(255,255,255,0.7)">Services</a></li>
+                        <li><a href="/blog/" style="color:var(--coral-red)">Blog</a></li>
+                        <li><a href="/contact.html" style="color:rgba(255,255,255,0.7)">Contact</a></li>
                     </ul>
                 </div>
-
-                <div class="footer-column">
-                    <h4 class="footer-heading">CONTACT</h4>
-                    <ul class="footer-contact">
-                        <li><a href="mailto:info@abdullahzafar.me">info@abdullahzafar.me</a></li>
-                        <li><a href="tel:+923026035284">+92 302 6035284</a></li>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Legal</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/privacy-policy.html" style="color:rgba(255,255,255,0.7)">Privacy Policy</a></li>
+                        <li><a href="/terms-of-use.html" style="color:rgba(255,255,255,0.7)">Terms of Use</a></li>
+                        <li><a href="/disclaimer.html" style="color:rgba(255,255,255,0.7)">Disclaimer</a></li>
+                        <li><a href="/feedback.html" style="color:rgba(255,255,255,0.7)">Feedback</a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="footer-bottom">
-                <p>© ALL RIGHTS RESERVED BY ABDULLAH ZAFAR</p>
+            <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:rgba(255,255,255,0.4)">
+                <p>© 2026 Abdullah Zafar. All Rights Reserved.</p>
+                <p>Designed for Speed & Search Engine Dominance.</p>
             </div>
         </div>
     </footer>
 
-    <script src="../js/main.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/blog-archive.js"></script>
 </body>
-
 </html>

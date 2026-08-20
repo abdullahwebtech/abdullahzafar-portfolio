@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Archive | Abdullah Zafar Blog</title>
+    <meta name="description" content="Browse articles, guides, and tutorials by category on Abdullah Zafar's Blog.">
+    <meta name="robots" content="index, follow" id="robotsMeta">
+    <link rel="canonical" href="https://abdullahzafar.me/blog/category.html" id="canonicalMeta">
+    
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/icons/Abdullah%20Zafar%20Favicon.png" type="image/png">
+    <link rel="stylesheet" href="../css/new-design-system.css">
+    <link rel="stylesheet" href="../css/blog-new.css">
+</head>
+<body>
+
+    <!-- Floating Navbar -->
+    <nav class="navbar" id="mainNavbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="../Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp" alt="Abdullah Zafar" class="logo-avatar" width="44" height="44">
+                <span class="logo-name">Abdullah Zafar</span>
+            </a>
+            <div class="nav-links">
+                <a href="/#services">Services</a>
+                <a href="/#works">Works</a>
+                <a href="/#resume">Resume</a>
+                <a href="/#skills">Skills</a>
+                <a href="/#testimonials">Testimonials</a>
+                <a href="/blog/" class="active">Blog</a>
+                <a href="/contact.html">Contact</a>
+            </div>
+            <div class="nav-right">
+                <a href="/contact.html" class="btn btn-primary btn-sm" style="border-radius:100px;padding:8px 20px;">Contact Me!</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="category-header">
+        <div class="container">
+            <nav class="post-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="sep">/</span>
+                <a href="/blog/">Blog</a>
+                <span class="sep">/</span>
+                <span style="color:var(--white);font-weight:500" id="catBreadcrumb">Category</span>
+            </nav>
+            <div class="category-meta">
+                <span class="post-cat-badge">Category Archive</span>
+            </div>
+            <h1 class="post-h1" id="catTitle">Loading category…</h1>
+            <p class="category-desc" id="catDesc"></p>
+        </div>
+    </header>
+
+    <!-- Category Posts Grid -->
+    <main class="blog-archive-section">
+        <div class="container">
+            <div id="categoryPostsContainer">
+                <div class="blog-loading">
+                    <div class="spinner"></div>
+                    <p>Loading category articles…</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="background:var(--charcoal-black);padding:60px 0 30px;color:white;border-top:1px solid rgba(255,255,255,0.08);">
+        <div class="container">
+            <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px">
+                <div>
+                    <div style="font-family:var(--font-heading);font-size:20px;font-weight:700;margin-bottom:12px">Abdullah Zafar</div>
+                    <p style="color:rgba(255,255,255,0.65);font-size:14px;line-height:1.7;max-width:380px">
+                        Custom WordPress, Shopify, Next.js developer and SEO Specialist based in Faisalabad, delivering high-speed, ranking web experiences.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Pages</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/" style="color:rgba(255,255,255,0.7)">Home</a></li>
+                        <li><a href="/#services" style="color:rgba(255,255,255,0.7)">Services</a></li>
+                        <li><a href="/blog/" style="color:var(--coral-red)">Blog</a></li>
+                        <li><a href="/contact.html" style="color:rgba(255,255,255,0.7)">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:16px">Legal</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px">
+                        <li><a href="/privacy-policy.html" style="color:rgba(255,255,255,0.7)">Privacy Policy</a></li>
+                        <li><a href="/terms-of-use.html" style="color:rgba(255,255,255,0.7)">Terms of Use</a></li>
+                        <li><a href="/disclaimer.html" style="color:rgba(255,255,255,0.7)">Disclaimer</a></li>
+                        <li><a href="/feedback.html" style="color:rgba(255,255,255,0.7)">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:rgba(255,255,255,0.4)">
+                <p>© 2026 Abdullah Zafar. All Rights Reserved.</p>
+                <p>Designed for Speed & Search Engine Dominance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/blog-category.js"></script>
+</body>
+</html>

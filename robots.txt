@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://abdullahzafar.me/sitemap.xml

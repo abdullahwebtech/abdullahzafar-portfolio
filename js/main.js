@@ -1,11 +1,26 @@
 // ===================================
+// CANONICAL URL NORMALIZATION (SEO)
+// Redirect /index.html to /
+// ===================================
+(function () {
+    if (window.location.pathname.endsWith('/index.html') || window.location.pathname === '/index.html') {
+        const cleanPath = window.location.pathname.replace(/\/index\.html$/, '/') + window.location.search + window.location.hash;
+        if (window.location.protocol.startsWith('http')) {
+            window.history.replaceState(null, '', cleanPath);
+        }
+    }
+})();
+
+// ===================================
 // LOADING SCREEN
 // ===================================
 window.addEventListener('load', () => {
     const loadingScreen = document.getElementById('loading-screen');
-    setTimeout(() => {
-        loadingScreen.classList.add('hidden');
-    }, 2000);
+    if (loadingScreen) {
+        setTimeout(() => {
+            loadingScreen.classList.add('hidden');
+        }, 2000);
+    }
 });
 
 // ===================================
@@ -85,24 +100,31 @@ serviceItems.forEach(item => {
 });
 
 // ===================================
-// FAQ ACCORDION
+// FAQ ACCORDION (Global robust handler)
 // ===================================
 document.addEventListener('DOMContentLoaded', () => {
-    const faqBtns = document.querySelectorAll('.contact-faq-btn');
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.contact-faq-btn');
+        if (!btn) return;
 
-    faqBtns.forEach(btn => {
-        btn.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            const item = this.closest('.contact-faq-item');
-            if (item) {
-                const isOpen = item.classList.contains('open');
-                // Close all
-                document.querySelectorAll('.contact-faq-item').forEach(i => i.classList.remove('open'));
-                // Toggle current
-                if (!isOpen) item.classList.add('open');
-            }
+        e.preventDefault();
+        const item = btn.closest('.contact-faq-item');
+        if (!item) return;
+
+        const isOpen = item.classList.contains('open') || item.classList.contains('active');
+        const parentList = item.closest('.contact-faq-list') || document;
+        
+        // Close siblings within the same FAQ list
+        parentList.querySelectorAll('.contact-faq-item').forEach(i => {
+            i.classList.remove('open');
+            i.classList.remove('active');
         });
+
+        // Toggle current item
+        if (!isOpen) {
+            item.classList.add('open');
+            item.classList.add('active');
+        }
     });
 });
 
@@ -263,23 +285,16 @@ if (testimonialsTrack && testimonialCards.length > 0) {
 }
 
 // ===================================
-// NAVBAR SCROLL EFFECT (Optional)
+// NAVBAR SCROLL EFFECT
 // ===================================
-let lastScroll = 0;
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
-
-    if (currentScroll > 100) {
-        navbar.style.background = 'rgba(13, 13, 18, 0.95)';
-        navbar.style.backdropFilter = 'blur(10px)';
+    if (window.pageYOffset > 100) {
+        navbar.classList.add('navbar--scrolled');
     } else {
-        navbar.style.background = 'transparent';
-        navbar.style.backdropFilter = 'none';
+        navbar.classList.remove('navbar--scrolled');
     }
-
-    lastScroll = currentScroll;
 });
 
 // ===================================
