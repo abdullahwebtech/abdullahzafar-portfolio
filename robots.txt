@@ -1,4 +1,14 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /admin
+Disallow: /feedback.html
+Disallow: /feedback
+Disallow: /portfolios/index.html
+
+# Allow all public assets and scripts
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /blog/js/
 
 Sitemap: https://abdullahzafar.me/sitemap.xml

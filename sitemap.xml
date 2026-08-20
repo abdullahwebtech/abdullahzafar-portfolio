@@ -1,130 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Home Page -->
     <url>
         <loc>https://abdullahzafar.me/</loc>
-        <lastmod>2026-08-16</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
+    
+    <!-- Core Service Landing Pages -->
     <url>
         <loc>https://abdullahzafar.me/wordpress-developer-in-faisalabad.html</loc>
-        <lastmod>2026-08-16</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/shopify-developer-in-faisalabad.html</loc>
-        <lastmod>2026-08-17</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/nextjs-developer-in-faisalabad.html</loc>
-        <lastmod>2026-08-18</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/seo-expert-in-faisalabad.html</loc>
-        <lastmod>2026-08-19</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    
+    <!-- Key Public Pages -->
     <url>
         <loc>https://abdullahzafar.me/about.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/works.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/contact.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    <!-- Portfolios -->
+    <url>
+        <loc>https://abdullahzafar.me/blog/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Portfolio Case Studies -->
     <url>
         <loc>https://abdullahzafar.me/portfolios/airforshare.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/nutrizen.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/shopgotical.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/pinnacle-law-firm.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/square-hvac.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/saim-latif.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/home-glorious.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/insightspree.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/logicnosh.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/oxygen-pharmacy.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/jemmy-textile.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/mortgage-australia.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://abdullahzafar.me/portfolios/qmc-services.html</loc>
-        <lastmod>2026-03-11</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
 </urlset>
