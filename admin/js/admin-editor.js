@@ -346,7 +346,7 @@ function updateSerpPreview() {
     const desc = document.getElementById('seoDesc').value.trim() || document.getElementById('postExcerpt').value.trim() || 'Meta description snippet will appear here as users see it in Google search results.';
 
     document.getElementById('serpTitle').textContent = `${title} | Abdullah Zafar`;
-    document.getElementById('serpUrl').textContent = `https://abdullahzafar.me/blog/${slug}`;
+    document.getElementById('serpUrl').textContent = `https://www.abdullahzafar.me/blog/${slug}`;
     document.getElementById('serpDesc').textContent = desc;
 }
 

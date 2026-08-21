@@ -27,4 +27,4 @@ var supabase = window.supabase || window.sbClient;
 const STORAGE_BUCKET = 'blog-images';
 
 // Public site URL
-const SITE_URL = 'https://abdullahzafar.me';
+const SITE_URL = 'https://www.abdullahzafar.me';

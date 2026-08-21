@@ -58,12 +58,12 @@ async function loadSettings() {
         document.getElementById('customHeadHtml').value = settings.custom_head_html || '';
 
         document.getElementById('siteName').value = settings.site_name || 'Abdullah Zafar';
-        document.getElementById('siteUrl').value = settings.site_url || 'https://abdullahzafar.me';
+        document.getElementById('siteUrl').value = settings.site_url || 'https://www.abdullahzafar.me';
         document.getElementById('authorName').value = settings.author_name || 'Abdullah Zafar';
         document.getElementById('authorEmail').value = settings.author_email || 'info@abdullahzafar.me';
         document.getElementById('defaultOgImage').value = settings.default_og_image || '';
 
-        document.getElementById('robotsContent').value = settings.robots_custom_rules || `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blog/post.html?*preview=true\n\nSitemap: https://abdullahzafar.me/sitemap.xml`;
+        document.getElementById('robotsContent').value = settings.robots_custom_rules || `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blog/post.html?*preview=true\n\nSitemap: https://www.abdullahzafar.me/sitemap.xml`;
 
     } catch (err) {
         console.error('[Settings] Load error:', err);
@@ -127,9 +127,9 @@ function setupForm() {
 window.setRobotsPreset = function(type) {
     const textarea = document.getElementById('robotsContent');
     if (type === 'standard') {
-        textarea.value = `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blog/post.html?*preview=true\n\nSitemap: https://abdullahzafar.me/sitemap.xml`;
+        textarea.value = `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blog/post.html?*preview=true\n\nSitemap: https://www.abdullahzafar.me/sitemap.xml`;
     } else if (type === 'blockAdmin') {
-        textarea.value = `User-agent: *\nDisallow: /admin/\nDisallow: /admin/*\nDisallow: /*preview=true\nAllow: /\n\nSitemap: https://abdullahzafar.me/sitemap.xml`;
+        textarea.value = `User-agent: *\nDisallow: /admin/\nDisallow: /admin/*\nDisallow: /*preview=true\nAllow: /\n\nSitemap: https://www.abdullahzafar.me/sitemap.xml`;
     }
     Toast.info('Robots preset loaded into editor');
 };

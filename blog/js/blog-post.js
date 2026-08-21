@@ -130,8 +130,8 @@ async function loadPost(slug, isPreview) {
 function injectPostSeo(post) {
     const title = post.seo_title || post.title;
     const desc = post.seo_desc || post.excerpt || '';
-    const canonical = post.canonical_url || `https://abdullahzafar.me/blog/${post.slug}`;
-    const ogImage = post.og_image || post.featured_image || 'https://abdullahzafar.me/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp';
+    const canonical = post.canonical_url || `https://www.abdullahzafar.me/blog/${post.slug}`;
+    const ogImage = post.og_image || post.featured_image || 'https://www.abdullahzafar.me/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp';
     const robots = post.robots_directive || 'index, follow';
 
     // Title & Meta
@@ -198,7 +198,7 @@ function generateTableOfContents() {
 }
 
 function injectSchema(post) {
-    const canonical = post.canonical_url || `https://abdullahzafar.me/blog/${post.slug}`;
+    const canonical = post.canonical_url || `https://www.abdullahzafar.me/blog/${post.slug}`;
     const pubDate = post.published_at || post.created_at;
     const modDate = post.updated_at || pubDate;
 
@@ -210,7 +210,7 @@ function injectSchema(post) {
                 "@id": `${canonical}#article`,
                 "isPartOf": {
                     "@type": "Blog",
-                    "@id": "https://abdullahzafar.me/blog/",
+                    "@id": "https://www.abdullahzafar.me/blog/",
                     "name": "Abdullah Zafar Blog"
                 },
                 "headline": post.title,
@@ -227,12 +227,12 @@ function injectSchema(post) {
                 "author": {
                     "@type": "Person",
                     "name": "Abdullah Zafar",
-                    "url": "https://abdullahzafar.me"
+                    "url": "https://www.abdullahzafar.me"
                 },
                 "publisher": {
                     "@type": "Person",
                     "name": "Abdullah Zafar",
-                    "url": "https://abdullahzafar.me"
+                    "url": "https://www.abdullahzafar.me"
                 }
             },
             {
@@ -243,19 +243,19 @@ function injectSchema(post) {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://abdullahzafar.me"
+                        "item": "https://www.abdullahzafar.me"
                     },
                     {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "Blog",
-                        "item": "https://abdullahzafar.me/blog/"
+                        "item": "https://www.abdullahzafar.me/blog/"
                     },
                     {
                         "@type": "ListItem",
                         "position": 3,
                         "name": post.categories?.name || "General",
-                        "item": post.categories?.slug ? `https://abdullahzafar.me/blog/category.html?slug=${post.categories.slug}` : "https://abdullahzafar.me/blog/"
+                        "item": post.categories?.slug ? `https://www.abdullahzafar.me/blog/category.html?slug=${post.categories.slug}` : "https://www.abdullahzafar.me/blog/"
                     },
                     {
                         "@type": "ListItem",

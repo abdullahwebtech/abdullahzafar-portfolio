@@ -51,7 +51,7 @@ async function loadCategoryAndPosts(slug) {
         if (descMeta) descMeta.content = seoDesc;
 
         let canonicalMeta = document.getElementById('canonicalMeta');
-        if (canonicalMeta) canonicalMeta.href = `https://abdullahzafar.me/blog/category.html?slug=${cat.slug}`;
+        if (canonicalMeta) canonicalMeta.href = `https://www.abdullahzafar.me/blog/category.html?slug=${cat.slug}`;
 
         // Header content
         document.getElementById('catTitle').textContent = cat.name;

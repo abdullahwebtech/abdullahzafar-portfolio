@@ -3,62 +3,62 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <!-- Main Home Page -->
     <url>
-        <loc>https://abdullahzafar.me/</loc>
+        <loc>https://www.abdullahzafar.me/</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
             <image:title>Web Developer in Faisalabad - Abdullah Zafar</image:title>
             <image:caption>Professional WordPress, Shopify, and Next.js Web Developer in Faisalabad</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Abdullah%20Zafar%20Footer%20Image%20-%20Abdullah%20Zafar%20Footer%20Image.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Abdullah%20Zafar%20Footer%20Image%20-%20Abdullah%20Zafar%20Footer%20Image.webp</image:loc>
             <image:title>Abdullah Zafar Profile</image:title>
         </image:image>
     </url>
     
     <!-- Core Service Landing Pages -->
     <url>
-        <loc>https://abdullahzafar.me/wordpress-developer-in-faisalabad</loc>
+        <loc>https://www.abdullahzafar.me/wordpress-developer-in-faisalabad</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Why%20WordPress%20for%20Your%20Business%20Website.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20WordPress%20for%20Your%20Business%20Website.webp</image:loc>
             <image:title>WordPress Developer in Faisalabad</image:title>
             <image:caption>Custom WordPress and WooCommerce Web Development</image:caption>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/shopify-developer-in-faisalabad</loc>
+        <loc>https://www.abdullahzafar.me/shopify-developer-in-faisalabad</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Why%20Shopify%20for%20Your%20E-Commerce%20Store.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20Shopify%20for%20Your%20E-Commerce%20Store.webp</image:loc>
             <image:title>Shopify Developer in Faisalabad</image:title>
             <image:caption>High-converting Shopify and E-Commerce store setup</image:caption>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/nextjs-developer-in-faisalabad</loc>
+        <loc>https://www.abdullahzafar.me/nextjs-developer-in-faisalabad</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Why%20Next.js%20for%20Your%20Web%20Application.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20Next.js%20for%20Your%20Web%20Application.webp</image:loc>
             <image:title>Next.js Developer in Faisalabad</image:title>
             <image:caption>Custom Next.js SaaS and modern web application development</image:caption>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/seo-expert-in-faisalabad</loc>
+        <loc>https://www.abdullahzafar.me/seo-expert-in-faisalabad</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Why%20SEO%20is%20Crucial%20for%20Your%20Business%20Growth.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20SEO%20is%20Crucial%20for%20Your%20Business%20Growth.webp</image:loc>
             <image:title>SEO Expert in Faisalabad</image:title>
             <image:caption>Search Engine Optimization and Google Business Profile Growth</image:caption>
         </image:image>
@@ -66,34 +66,34 @@
     
     <!-- Key Public Pages -->
     <url>
-        <loc>https://abdullahzafar.me/about</loc>
+        <loc>https://www.abdullahzafar.me/about</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
             <image:title>About Abdullah Zafar</image:title>
             <image:caption>About Abdullah Zafar - Web and Website Developer in Faisalabad</image:caption>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/works</loc>
+        <loc>https://www.abdullahzafar.me/works</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/contact</loc>
+        <loc>https://www.abdullahzafar.me/contact</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
             <image:title>Contact Abdullah Zafar</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/blog/</loc>
+        <loc>https://www.abdullahzafar.me/blog/</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -101,132 +101,132 @@
     
     <!-- Portfolio Case Studies -->
     <url>
-        <loc>https://abdullahzafar.me/portfolios/airforshare</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/airforshare</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/airforshare.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/airforshare.jpg</image:loc>
             <image:title>AirForShare App Case Study</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/nutrizen</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/nutrizen</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/nutrizen.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/nutrizen.jpg</image:loc>
             <image:title>Nutrizen Supplements Store Design</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/shopgotical</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/shopgotical</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/shopgotical.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/shopgotical.jpg</image:loc>
             <image:title>ShopGotical WooCommerce Store</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/pinnacle-law-firm</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/pinnacle-law-firm</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/pinnacle-law-firm.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/pinnacle-law-firm.jpg</image:loc>
             <image:title>Pinnacle Law Firm Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/square-hvac</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/square-hvac</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/square-hvac.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/square-hvac.jpg</image:loc>
             <image:title>Square HVAC Service Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/saim-latif</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/saim-latif</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/saim-latif.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/saim-latif.jpg</image:loc>
             <image:title>Saim Latif SEO Specialist Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/home-glorious</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/home-glorious</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/home-glorious.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/home-glorious.jpg</image:loc>
             <image:title>Home Glorious Bedding Store</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/insightspree</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/insightspree</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/insightspree.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/insightspree.jpg</image:loc>
             <image:title>InsightSpree Blog Platform</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/logicnosh</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/logicnosh</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/logicnosh.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/logicnosh.jpg</image:loc>
             <image:title>LogicNosh Agency Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/oxygen-pharmacy</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/oxygen-pharmacy</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/oxygen-pharmacy.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/oxygen-pharmacy.jpg</image:loc>
             <image:title>Oxygen Pharmacy E-Commerce Store</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/jemmy-textile</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/jemmy-textile</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/jemmy-textile.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/jemmy-textile.jpg</image:loc>
             <image:title>Jemmy Textile B2B Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/mortgage-australia</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/mortgage-australia</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/mortgage-australia.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/mortgage-australia.jpg</image:loc>
             <image:title>Mortgage Australia Group Website</image:title>
         </image:image>
     </url>
     <url>
-        <loc>https://abdullahzafar.me/portfolios/qmc-services</loc>
+        <loc>https://www.abdullahzafar.me/portfolios/qmc-services</loc>
         <lastmod>2026-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://abdullahzafar.me/assets/images/qmc-services.jpg</image:loc>
+            <image:loc>https://www.abdullahzafar.me/assets/images/qmc-services.jpg</image:loc>
             <image:title>QMC Services NDIS Consulting Website</image:title>
         </image:image>
     </url>

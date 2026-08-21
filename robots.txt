@@ -11,4 +11,4 @@ Allow: /css/
 Allow: /js/
 Allow: /blog/js/
 
-Sitemap: https://abdullahzafar.me/sitemap.xml
+Sitemap: https://www.abdullahzafar.me/sitemap.xml
