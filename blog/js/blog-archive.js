@@ -92,6 +92,7 @@ async function loadPosts() {
                 </div>
             `;
             paginationEl.style.display = 'none';
+            setNoIndex();
             return;
         }
 
@@ -240,4 +241,17 @@ function escapeHtml(str) {
             '"': '&quot;'
         }[tag] || tag)
     );
+}
+
+// An archive with no articles is a thin page. Keep it out of the index until
+// something is published; publishing a post makes it indexable again with no
+// further change needed.
+function setNoIndex() {
+    let m = document.querySelector('meta[name="robots"]');
+    if (!m) {
+        m = document.createElement('meta');
+        m.name = 'robots';
+        document.head.appendChild(m);
+    }
+    m.content = 'noindex, follow';
 }

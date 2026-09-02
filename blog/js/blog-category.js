@@ -51,7 +51,7 @@ async function loadCategoryAndPosts(slug) {
         if (descMeta) descMeta.content = seoDesc;
 
         let canonicalMeta = document.getElementById('canonicalMeta');
-        if (canonicalMeta) canonicalMeta.href = `https://www.abdullahzafar.me/blog/category.html?slug=${cat.slug}`;
+        if (canonicalMeta) canonicalMeta.href = `https://www.abdullahzafar.me/blog/category/${cat.slug}`;
 
         // Header content
         document.getElementById('catTitle').textContent = cat.name;
@@ -138,6 +138,7 @@ async function loadCategoryAndPosts(slug) {
 
 function showCat404(title, msg) {
     document.title = `${title} | Abdullah Zafar`;
+    setNoIndex();
     const container = document.getElementById('categoryPostsContainer');
     container.innerHTML = `
         <div class="blog-empty">
@@ -166,4 +167,18 @@ function escapeHtml(str) {
             '"': '&quot;'
         }[tag] || tag)
     );
+}
+
+
+// Pages rendered as "not found" still return HTTP 200, so tell crawlers not to index them.
+function setNoIndex() {
+    let m = document.getElementById('robotsMeta') || document.querySelector('meta[name="robots"]');
+    if (!m) {
+        m = document.createElement('meta');
+        m.name = 'robots';
+        document.head.appendChild(m);
+    }
+    m.content = 'noindex, follow';
+    const c = document.getElementById('canonicalMeta');
+    if (c) c.remove();
 }

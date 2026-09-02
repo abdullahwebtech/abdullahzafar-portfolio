@@ -1,11 +1,18 @@
 User-agent: *
+Allow: /
+
+# Admin area is private and must never be crawled
 Disallow: /admin/
 Disallow: /admin
-Disallow: /feedback.html
-Disallow: /feedback
-Disallow: /portfolios/index.html
 
-# Allow all public assets and scripts
+# Draft/preview URLs must not be indexed
+Disallow: /*?preview=true
+
+# Internal search-style query strings on the blog templates
+Disallow: /blog/post.html
+Disallow: /blog/category.html
+
+# Public assets must stay crawlable so Google can render the pages
 Allow: /assets/
 Allow: /css/
 Allow: /js/

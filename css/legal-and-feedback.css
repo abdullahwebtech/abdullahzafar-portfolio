@@ -465,7 +465,7 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
 }
 
-.feedback-sidebar-card h4 {
+.feedback-sidebar-card h3 {
     font-size: 16px;
     font-weight: 700;
     color: var(--charcoal-black);
@@ -506,7 +506,7 @@
     font-size: 14px;
 }
 
-.feedback-perk-text h5 {
+.feedback-perk-text h4 {
     font-size: 14px;
     font-weight: 700;
     color: var(--charcoal-black);

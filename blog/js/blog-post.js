@@ -84,7 +84,7 @@ async function loadPost(slug, isPreview) {
         if (cat) {
             catBadge.textContent = cat.name;
             breadcrumbCat.textContent = cat.name;
-            breadcrumbCat.href = `/blog/category.html?slug=${cat.slug}`;
+            breadcrumbCat.href = `/blog/category/${cat.slug}`;
         } else {
             catBadge.textContent = 'General';
             breadcrumbCat.textContent = 'General';
@@ -131,7 +131,7 @@ function injectPostSeo(post) {
     const title = post.seo_title || post.title;
     const desc = post.seo_desc || post.excerpt || '';
     const canonical = post.canonical_url || `https://www.abdullahzafar.me/blog/${post.slug}`;
-    const ogImage = post.og_image || post.featured_image || 'https://www.abdullahzafar.me/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp';
+    const ogImage = post.og_image || post.featured_image || 'https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp';
     const robots = post.robots_directive || 'index, follow';
 
     // Title & Meta
@@ -255,7 +255,7 @@ function injectSchema(post) {
                         "@type": "ListItem",
                         "position": 3,
                         "name": post.categories?.name || "General",
-                        "item": post.categories?.slug ? `https://www.abdullahzafar.me/blog/category.html?slug=${post.categories.slug}` : "https://www.abdullahzafar.me/blog/"
+                        "item": post.categories?.slug ? `https://www.abdullahzafar.me/blog/category/${post.categories.slug}` : "https://www.abdullahzafar.me/blog/"
                     },
                     {
                         "@type": "ListItem",
@@ -323,6 +323,7 @@ async function loadRelatedPosts(categoryId, excludeId) {
 
 function show404(title, message) {
     document.title = `${title} | Abdullah Zafar`;
+    setNoIndex();
     const header = document.getElementById('postHeader');
     header.innerHTML = `
         <div class="container" style="padding:40px 0 60px">
@@ -372,4 +373,18 @@ function escapeHtml(str) {
             '"': '&quot;'
         }[tag] || tag)
     );
+}
+
+
+// Pages rendered as "not found" still return HTTP 200, so tell crawlers not to index them.
+function setNoIndex() {
+    let m = document.getElementById('robotsMeta') || document.querySelector('meta[name="robots"]');
+    if (!m) {
+        m = document.createElement('meta');
+        m.name = 'robots';
+        document.head.appendChild(m);
+    }
+    m.content = 'noindex, follow';
+    const c = document.getElementById('canonicalMeta');
+    if (c) c.remove();
 }

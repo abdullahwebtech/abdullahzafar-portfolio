@@ -65,3 +65,9 @@ Shopify\ page\ images/
 landing\ page\ geotagged\ images/
 wordpress\ page\ geotagged\ images/
 .vercel
+
+# Internal SEO brief — must not be published
+seo.md
+
+# Stray lockfile: this is a static site with no build step
+package-lock.json

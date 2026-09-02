@@ -151,7 +151,7 @@ function createTestimonialCard(testimonial) {
             <div class="quote-mark">"</div>
             <p class="testimonial-text">${testimonial.quote}</p>
             <div class="testimonial-footer">
-                <img src="${testimonial.avatar}" alt="${testimonial.name}" class="testimonial-avatar" loading="lazy">
+                <img src="${testimonial.avatar}" alt="${testimonial.name}" class="testimonial-avatar" width="48" height="48" loading="lazy" decoding="async">
                 <div class="testimonial-author-info">
                     <h4 class="testimonial-author-name">${testimonial.name}</h4>
                     <p class="testimonial-author-title">${testimonial.title}</p>

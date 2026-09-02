@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WordPress Service Website",
             description: "HVAC service website with local SEO strategy generating 708+ monthly organic visitors with fast mobile performance.",
             image: "assets/images/projects/square-hvac/thumbnail.webp",
-            link: "portfolios/square-hvac.html",
+            link: "/portfolios/square-hvac",
             tags: ["WordPress", "Local SEO", "Service Website"]
         },
         {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WordPress Legal Website",
             description: "Professional legal website for a California-based practice specializing in ART and Entertainment Law, built for trust.",
             image: "assets/images/projects/pinnacle-law-firm/pinnacle law firm Thumbnail.webp",
-            link: "portfolios/pinnacle-law-firm.html",
+            link: "/portfolios/pinnacle-law-firm",
             tags: ["WordPress", "Legal Practice", "Custom Design"]
         },
         {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WordPress Consulting Website",
             description: "NDIS consulting website that achieved #1 Google ranking and featured snippet through high-speed structure and schema.",
             image: "assets/images/projects/qmc-services/QMC Services thumbnail.webp",
-            link: "portfolios/qmc-services.html",
+            link: "/portfolios/qmc-services",
             tags: ["WordPress", "Consulting", "#1 Google Rank"]
         },
         {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WooCommerce E-Commerce Store",
             description: "Health supplements and skincare WooCommerce store with custom product variations and smooth checkout for Pakistan & abroad.",
             image: "assets/images/projects/nutrizen/Nutrizen Thumbnail.webp",
-            link: "portfolios/nutrizen.html",
+            link: "/portfolios/nutrizen",
             tags: ["WordPress", "WooCommerce", "E-Commerce"]
         },
         {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WordPress Agency Website",
             description: "Modern agency website showcasing software development, AI, and blockchain services with interactive layouts.",
             image: "assets/images/projects/logicnosh/Logic Nosh Thumbnail.webp",
-            link: "portfolios/logicnosh.html",
+            link: "/portfolios/logicnosh",
             tags: ["WordPress", "Agency", "Interactive"]
         },
         {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "WordPress Healthcare Store",
             description: "Pharmacy and medical supplies website with local medicine delivery and prescription inquiry forms for fast customer ordering.",
             image: "assets/images/projects/oxygen-pharmacy/Oxygen Pharmacy Thumbnail.webp",
-            link: "portfolios/oxygen-pharmacy.html",
+            link: "/portfolios/oxygen-pharmacy",
             tags: ["WordPress", "Healthcare", "Local Delivery"]
         }
     ];
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "Shopify E-commerce",
             description: "Pharmaceutical marketplace with advanced inventory management, prescription handling, and conversion-focused checkout.",
             image: "assets/images/projects/oxygen-pharmacy/oxygenpharmacy.com.pk thumbnail.webp",
-            link: "portfolios/oxygen-pharmacy.html",
+            link: "/portfolios/oxygen-pharmacy",
             tags: ["Shopify", "E-commerce", "Healthcare"]
         }
     ];

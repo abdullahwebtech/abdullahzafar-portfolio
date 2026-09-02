@@ -7,7 +7,7 @@ const servicesData = [
         badge: "Best for: clinics, academies, service businesses, consultants, and local shops",
         description: `<p>A WordPress developer builds, customizes, and maintains WordPress websites for local and remote businesses. That covers site structure, responsive design, forms, performance, basic SEO, and ongoing maintenance.</p>
                      <p>I choose the setup based on how you'll use the site. If you need simple content editing, I keep the build lightweight. If you need more visual control over layout, I build with Elementor instead. Either way, you get contact forms, WhatsApp click to chat, and a Google Maps location built in.</p>
-                     <p><a href="wordpress-developer-in-faisalabad.html" class="service-detail-btn">Explore WordPress Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
+                     <p><a href="/wordpress-developer-in-faisalabad" class="service-detail-btn">Explore WordPress Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
         icon: `<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                 <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
@@ -22,7 +22,7 @@ const servicesData = [
         badge: "Best for: textile and garment brands, retailers, and shops already selling through Instagram or WhatsApp",
         description: `<p>A Shopify developer builds and customizes online stores, including product pages, collections, navigation, payment options, and store performance.</p>
                      <p>I build Shopify stores with clear collections, product pages, and mobile-friendly navigation. I add cash on delivery and other payment options, plus performance work to keep pages fast. For businesses already selling through Instagram or WhatsApp, the goal is simple. Give customers a proper way to browse products and place an order, instead of a comment thread.</p>
-                     <p><a href="shopify-developer-in-faisalabad.html" class="service-detail-btn">Explore Shopify Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
+                     <p><a href="/shopify-developer-in-faisalabad" class="service-detail-btn">Explore Shopify Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
         icon: `<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <circle cx="9" cy="21" r="1"></circle>
                 <circle cx="20" cy="21" r="1"></circle>
@@ -37,7 +37,7 @@ const servicesData = [
         badge: "Best for: startups, SaaS products, custom portals & high-speed platforms",
         description: `<p>Custom web applications, dashboards, and scalable SaaS platforms built with Next.js App Router, React, and TypeScript for sub-second performance.</p>
                      <p>I build secure authentication, database architecture, third-party API integrations, and headless storefronts tailored to your exact product requirements.</p>
-                     <p><a href="nextjs-developer-in-faisalabad.html" class="service-detail-btn">Explore Next.js Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
+                     <p><a href="/nextjs-developer-in-faisalabad" class="service-detail-btn">Explore Next.js Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
         icon: `<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
                 <polyline points="2 17 12 22 22 17"></polyline>
@@ -68,7 +68,7 @@ const servicesData = [
         badge: "Best for: clinics, academies, textile businesses, exporters & local shops",
         description: `<p>I help clinics, academies, textile businesses, and exporters get found on Google, so more of the right people call, message, or walk in.</p>
                      <p>My job is simple: fix what's holding your site back, build up what's working, and explain the results in plain terms, not jargon. Covering on-page, technical audits, Google Business Profile, and local rankings across Faisalabad.</p>
-                     <p><a href="seo-expert-in-faisalabad.html" class="service-detail-btn">Explore SEO Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
+                     <p><a href="/seo-expert-in-faisalabad" class="service-detail-btn">Explore SEO Services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></p>`,
         icon: `<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

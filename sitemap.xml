@@ -1,233 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    <!-- Main Home Page -->
     <url>
         <loc>https://www.abdullahzafar.me/</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-09-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
             <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
-            <image:title>Web Developer in Faisalabad - Abdullah Zafar</image:title>
-            <image:caption>Professional WordPress, Shopify, and Next.js Web Developer in Faisalabad</image:caption>
+            <image:title>Abdullah Zafar, web developer in Faisalabad</image:title>
+            <image:caption>Abdullah Zafar builds WordPress, Shopify, and Next.js websites for businesses in Faisalabad.</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Abdullah%20Zafar%20Footer%20Image%20-%20Abdullah%20Zafar%20Footer%20Image.webp</image:loc>
-            <image:title>Abdullah Zafar Profile</image:title>
+            <image:loc>https://www.abdullahzafar.me/assets/images/web%20developer%20in%20faisalabad%20-%20my%20development%20process%20(1).webp</image:loc>
+            <image:title>Web development process, from discovery call to launch</image:title>
+            <image:caption>The five stages of a website project: discovery, planning, design and build, launch, and support.</image:caption>
         </image:image>
     </url>
-    
-    <!-- Core Service Landing Pages -->
     <url>
         <loc>https://www.abdullahzafar.me/wordpress-developer-in-faisalabad</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20WordPress%20for%20Your%20Business%20Website.webp</image:loc>
-            <image:title>WordPress Developer in Faisalabad</image:title>
-            <image:caption>Custom WordPress and WooCommerce Web Development</image:caption>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20WordPress%20for%20Your%20Business.webp</image:loc>
+            <image:title>Why WordPress suits most business websites</image:title>
+            <image:caption>Reasons a Faisalabad business would choose WordPress over other platforms.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/My%20WordPress%20Development%20Process%20infographic.webp</image:loc>
+            <image:title>WordPress development process</image:title>
+            <image:caption>Steps in a WordPress build, from requirements to training and support.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/shopify-developer-in-faisalabad</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20Shopify%20for%20Your%20E-Commerce%20Store.webp</image:loc>
-            <image:title>Shopify Developer in Faisalabad</image:title>
-            <image:caption>High-converting Shopify and E-Commerce store setup</image:caption>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20Shopify%20for%20Your%20Online%20Store%20infographic.webp</image:loc>
+            <image:title>Why Shopify suits online stores</image:title>
+            <image:caption>Reasons a Faisalabad retail or textile brand would choose Shopify.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/shopify%20developer%20in%20faisalabad%20cost.webp</image:loc>
+            <image:title>Shopify store development cost in Faisalabad</image:title>
+            <image:caption>Price ranges in PKR for Shopify store setup, custom builds, and support.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/nextjs-developer-in-faisalabad</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
             <image:loc>https://www.abdullahzafar.me/assets/images/Why%20Next.js%20for%20Your%20Web%20Application.webp</image:loc>
-            <image:title>Next.js Developer in Faisalabad</image:title>
-            <image:caption>Custom Next.js SaaS and modern web application development</image:caption>
+            <image:title>Why Next.js suits custom web applications</image:title>
+            <image:caption>Reasons to build a SaaS product or portal with Next.js.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Next.js%20Development%20Cost%20in%20Faisalabad.webp</image:loc>
+            <image:title>Next.js development cost in Faisalabad</image:title>
+            <image:caption>Price ranges in PKR for Next.js web apps, dashboards, and storefronts.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/seo-expert-in-faisalabad</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20SEO%20is%20Crucial%20for%20Your%20Business%20Growth.webp</image:loc>
-            <image:title>SEO Expert in Faisalabad</image:title>
-            <image:caption>Search Engine Optimization and Google Business Profile Growth</image:caption>
+            <image:loc>https://www.abdullahzafar.me/assets/images/Why%20SEO%20Matters%20for%20Faisalabad%20Businesses.webp</image:loc>
+            <image:title>Why SEO matters for Faisalabad businesses</image:title>
+            <image:caption>How search visibility brings calls and enquiries to a local business.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/SEO%20Packages%20in%20Faisalabad.webp</image:loc>
+            <image:title>SEO packages in Faisalabad</image:title>
+            <image:caption>Monthly SEO scopes and PKR pricing for local and e-commerce businesses.</image:caption>
         </image:image>
     </url>
-    
-    <!-- Key Public Pages -->
     <url>
         <loc>https://www.abdullahzafar.me/about</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-09-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
-            <image:title>About Abdullah Zafar</image:title>
-            <image:caption>About Abdullah Zafar - Web and Website Developer in Faisalabad</image:caption>
+            <image:loc>https://www.abdullahzafar.me/assets/images/web%20developer%20in%20faisalabad%20(1).webp</image:loc>
+            <image:title>Abdullah Zafar at work</image:title>
+            <image:caption>Abdullah Zafar, a web developer based in Faisalabad, Pakistan.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/works</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-09-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/contact</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/Web%20developer%20in%20Faisalabad%20-%20Abdullah%20zafar.webp</image:loc>
-            <image:title>Contact Abdullah Zafar</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/blog/</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Portfolio Case Studies -->
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/airforshare</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-09-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/airforshare.jpg</image:loc>
-            <image:title>AirForShare App Case Study</image:title>
-        </image:image>
     </url>
     <url>
-        <loc>https://www.abdullahzafar.me/portfolios/nutrizen</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://www.abdullahzafar.me/portfolios/square-hvac</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/nutrizen.jpg</image:loc>
-            <image:title>Nutrizen Supplements Store Design</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/shopgotical</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/shopgotical.jpg</image:loc>
-            <image:title>ShopGotical WooCommerce Store</image:title>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/square-hvac/thumbnail.webp</image:loc>
+            <image:title>Square HVAC website</image:title>
+            <image:caption>WordPress service website built for local lead generation.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/portfolios/pinnacle-law-firm</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/pinnacle-law-firm.jpg</image:loc>
-            <image:title>Pinnacle Law Firm Website</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/square-hvac</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/square-hvac.jpg</image:loc>
-            <image:title>Square HVAC Service Website</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/saim-latif</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/saim-latif.jpg</image:loc>
-            <image:title>Saim Latif SEO Specialist Website</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/home-glorious</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/home-glorious.jpg</image:loc>
-            <image:title>Home Glorious Bedding Store</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/insightspree</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/insightspree.jpg</image:loc>
-            <image:title>InsightSpree Blog Platform</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/logicnosh</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/logicnosh.jpg</image:loc>
-            <image:title>LogicNosh Agency Website</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/oxygen-pharmacy</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/oxygen-pharmacy.jpg</image:loc>
-            <image:title>Oxygen Pharmacy E-Commerce Store</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/jemmy-textile</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/jemmy-textile.jpg</image:loc>
-            <image:title>Jemmy Textile B2B Website</image:title>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://www.abdullahzafar.me/portfolios/mortgage-australia</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/mortgage-australia.jpg</image:loc>
-            <image:title>Mortgage Australia Group Website</image:title>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/pinnacle-law-firm/pinnacle%20law%20firm%20Thumbnail.webp</image:loc>
+            <image:title>Pinnacle Law Firm website</image:title>
+            <image:caption>WordPress website for a California legal practice.</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.abdullahzafar.me/portfolios/qmc-services</loc>
-        <lastmod>2026-08-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
         <image:image>
-            <image:loc>https://www.abdullahzafar.me/assets/images/qmc-services.jpg</image:loc>
-            <image:title>QMC Services NDIS Consulting Website</image:title>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/qmc-services/QMC%20Services%20thumbnail.webp</image:loc>
+            <image:title>QMC Services website</image:title>
+            <image:caption>WordPress website for an NDIS consulting business.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/nutrizen</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/nutrizen/Nutrizen%20Thumbnail.webp</image:loc>
+            <image:title>Nutrizen store</image:title>
+            <image:caption>WooCommerce store for a health supplement and skincare brand.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/logicnosh</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/logicnosh/Logic%20Nosh%20Thumbnail.webp</image:loc>
+            <image:title>LogicNosh website</image:title>
+            <image:caption>WordPress website for a software and AI development agency.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/jemmy-textile</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/jemmy-textile/Jemmy%20Textile%20Thumbnail.webp</image:loc>
+            <image:title>Jemmy Textile website</image:title>
+            <image:caption>B2B WordPress catalogue site for a fabric and home textile manufacturer.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/home-glorious</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/home-glorious/Home%20glorious%20thumbnail.webp</image:loc>
+            <image:title>Home Glorious store</image:title>
+            <image:caption>WooCommerce store selling premium bedding.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/shopgotical</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/shopgotical/ShopGotical%20Thumbnail.webp</image:loc>
+            <image:title>ShopGotical store</image:title>
+            <image:caption>WooCommerce store for replacement water and air filters.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/airforshare</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/airforshare/Airforshare%20thumbnail.webp</image:loc>
+            <image:title>AirForShare app</image:title>
+            <image:caption>Browser-based file sharing web application.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/mortgage-australia</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/mortgage-australia/Mortgage%20Australia%20Thumbnail.webp</image:loc>
+            <image:title>Mortgage Australia Group website</image:title>
+            <image:caption>WordPress finance website for mortgage broker enquiries.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/saim-latif</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/saim-latif/saimlatif.com%20thumbnail.webp</image:loc>
+            <image:title>SaimLatif.com website</image:title>
+            <image:caption>WordPress portfolio site for an SEO specialist.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.abdullahzafar.me/portfolios/oxygen-pharmacy</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>https://www.abdullahzafar.me/assets/images/projects/oxygen-pharmacy/oxygenpharmacy.com.pk%20thumbnail.webp</image:loc>
+            <image:title>Oxygen Pharmacy store</image:title>
+            <image:caption>Shopify pharmacy marketplace carrying a large product catalogue.</image:caption>
         </image:image>
     </url>
 </urlset>

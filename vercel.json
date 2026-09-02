@@ -27,12 +27,31 @@
           "value": "public, max-age=86400, stale-while-revalidate=604800"
         }
       ]
+    },
+    {
+      "source": "/admin/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ],
   "redirects": [
     {
       "source": "/index.html",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/portfolios",
+      "destination": "/works",
+      "permanent": true
+    },
+    {
+      "source": "/portfolios/index.html",
+      "destination": "/works",
       "permanent": true
     }
   ],

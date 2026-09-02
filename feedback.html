@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Website Feedback &amp; Suggestions - Abdullah Zafar</title>
     <meta name="description" content="Share your feedback, report a bug, or suggest new features for Abdullah Zafar's portfolio website. Your suggestions directly help improve the experience.">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, follow">
     <meta name="author" content="Abdullah Zafar">
     <link rel="stylesheet" href="css/new-design-system.css">
     <link rel="stylesheet" href="css/legal-and-feedback.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all';this.onload=null">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"></noscript>
     <link rel="icon" href="assets/icons/Abdullah%20Zafar%20Favicon.png" type="image/png">
     <link rel="canonical" href="https://www.abdullahzafar.me/feedback">
 </head>
@@ -21,37 +23,37 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo"><a href="./"><img
+            <div class="logo"><a href="/"><img
                         src="assets/images/Abdullah Zafar Footer Image - Abdullah Zafar Footer Image.webp"
-                        alt="Abdullah Zafar" class="logo-avatar"><span class="logo-name">Abdullah Zafar</span></a></div>
+                        alt="Abdullah Zafar" class="logo-avatar" width="400" height="490" decoding="async"><span class="logo-name">Abdullah Zafar</span></a></div>
             <div class="nav-links">
                 <div class="nav-item-dropdown">
-                    <a href="./#services">Services <span class="nav-dropdown-arrow">▾</span></a>
+                    <a href="/#services">Services <span class="nav-dropdown-arrow">▾</span></a>
                     <div class="nav-dropdown-menu">
-                        <a href="wordpress-developer-in-faisalabad.html" class="nav-dropdown-item">
+                        <a href="/wordpress-developer-in-faisalabad" class="nav-dropdown-item">
                             <span class="nav-dropdown-title">WordPress Development</span>
                             <span class="nav-dropdown-desc">Custom, fast &amp; mobile-friendly sites</span>
                         </a>
-                        <a href="shopify-developer-in-faisalabad.html" class="nav-dropdown-item">
+                        <a href="/shopify-developer-in-faisalabad" class="nav-dropdown-item">
                             <span class="nav-dropdown-title">Shopify &amp; E-Commerce</span>
                             <span class="nav-dropdown-desc">High-converting online stores</span>
                         </a>
-                        <a href="nextjs-developer-in-faisalabad.html" class="nav-dropdown-item">
+                        <a href="/nextjs-developer-in-faisalabad" class="nav-dropdown-item">
                             <span class="nav-dropdown-title">Custom Next.js Apps</span>
                             <span class="nav-dropdown-desc">Scalable modern web applications</span>
                         </a>
-                        <a href="seo-expert-in-faisalabad.html" class="nav-dropdown-item">
+                        <a href="/seo-expert-in-faisalabad" class="nav-dropdown-item">
                             <span class="nav-dropdown-title">Search Engine Optimization</span>
                             <span class="nav-dropdown-desc">Rank higher &amp; get more leads</span>
                         </a>
                     </div>
                 </div>
-                <a href="works.html">Works</a>
-                <a href="./#resume">Resume</a>
-                <a href="./#skills">Skills</a>
-                <a href="about.html">About</a>
-                <a href="./#testimonials">Testimonials</a>
-                <a href="contact.html">Contact</a>
+                <a href="/works">Works</a>
+                <a href="/#resume">Resume</a>
+                <a href="/#skills">Skills</a>
+                <a href="/about">About</a>
+                <a href="/#testimonials">Testimonials</a>
+                <a href="/contact">Contact</a>
             </div>
             <div class="nav-right">
                 <div class="social-icons">
@@ -69,7 +71,7 @@
                         </svg>
                     </a>
                 </div>
-                <button class="nav-cta" onclick="window.location.href='contact.html'">Contact Me!</button>
+                <button class="nav-cta" onclick="window.location.href='/contact'">Contact Me!</button>
             </div>
             <button class="hamburger" aria-label="Menu">
                 <span></span>
@@ -223,11 +225,11 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </div>
-                        <h3 class="feedback-success-title">Thank You for Your Feedback!</h3>
+                        <h2 class="feedback-success-title">Thank You for Your Feedback!</h2>
                         <p class="feedback-success-desc">I genuinely appreciate your time and insight. Every suggestion helps create a cleaner, faster, and more impactful web experience.</p>
                         <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-                            <a href="./" class="btn-primary">Return to Homepage</a>
-                            <a href="works.html" class="cta-button-outline" style="color: var(--charcoal-black); border-color: var(--border-gray);">Explore Works</a>
+                            <a href="/" class="btn-primary">Return to Homepage</a>
+                            <a href="/works" class="cta-button-outline" style="color: var(--charcoal-black); border-color: var(--border-gray);">Explore Works</a>
                         </div>
                     </div>
                 </div>
@@ -235,18 +237,18 @@
                 <!-- Right: Helpful Context Sidebar -->
                 <aside class="feedback-sidebar">
                     <div class="feedback-sidebar-card">
-                        <h4>
+                        <h3>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                             </svg>
                             Why Your Input Matters
-                        </h4>
+                        </h3>
                         <p>Building high-performing websites is an iterative journey. Your real-world browsing experience provides valuable perspective that code linters cannot catch.</p>
 
                         <div class="feedback-perk-item">
                             <div class="feedback-perk-icon">⚡</div>
                             <div class="feedback-perk-text">
-                                <h5>Direct Review</h5>
+                                <h4>Direct Review</h4>
                                 <p>No middle layers. I inspect every report personally.</p>
                             </div>
                         </div>
@@ -254,7 +256,7 @@
                         <div class="feedback-perk-item">
                             <div class="feedback-perk-icon">🛠️</div>
                             <div class="feedback-perk-text">
-                                <h5>Continuous Polish</h5>
+                                <h4>Continuous Polish</h4>
                                 <p>Bug fixes and layout tweaks are deployed swiftly.</p>
                             </div>
                         </div>
@@ -262,21 +264,21 @@
                         <div class="feedback-perk-item">
                             <div class="feedback-perk-icon">💬</div>
                             <div class="feedback-perk-text">
-                                <h5>Open Communication</h5>
+                                <h4>Open Communication</h4>
                                 <p>If you leave an email, I'll follow up directly.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="feedback-sidebar-card" style="background: linear-gradient(135deg, rgba(255, 81, 71, 0.05) 0%, rgba(255, 255, 255, 1) 100%);">
-                        <h4>
+                        <h3>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                             </svg>
                             Need a Project Quote Instead?
-                        </h4>
+                        </h3>
                         <p>If you're looking to hire me for a WordPress, Shopify, Next.js, or SEO project, reach out directly via the contact page or WhatsApp for immediate pricing.</p>
-                        <a href="contact.html" class="btn-primary" style="display: block; text-align: center; margin-bottom: 8px;">Go to Contact Form</a>
+                        <a href="/contact" class="btn-primary" style="display: block; text-align: center; margin-bottom: 8px;">Go to Contact Form</a>
                         <a href="https://wa.link/6keeko" target="_blank" style="display: block; text-align: center; color: #25D366; font-weight: 600; font-size: 14px; text-decoration: none;">WhatsApp: +92 302 6035284 →</a>
                     </div>
                 </aside>
@@ -292,8 +294,8 @@
                 <div class="footer-column footer-brand">
                     <div class="footer-profile">
                         <img src="assets/images/Abdullah Zafar Footer Image - Abdullah Zafar Footer Image.webp"
-                            alt="Abdullah Zafar" class="footer-avatar" loading="lazy">
-                        <h3 class="footer-name">Abdullah Zafar</h3>
+                            alt="Abdullah Zafar" class="footer-avatar" loading="lazy" width="400" height="490" decoding="async">
+                        <h2 class="footer-name">Abdullah Zafar</h2>
                     </div>
                     <p class="footer-bio">I build custom WordPress, Shopify, Next.js websites and provide SEO solutions for businesses in Faisalabad and internationally.</p>
                     <div class="footer-social">
@@ -315,34 +317,34 @@
                 </div>
 
                 <div class="footer-column footer-nav">
-                    <h4 class="footer-heading">Services</h4>
+                    <h3 class="footer-heading">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="wordpress-developer-in-faisalabad.html">WordPress Development</a></li>
-                        <li><a href="shopify-developer-in-faisalabad.html">Shopify &amp; E-Commerce</a></li>
-                        <li><a href="nextjs-developer-in-faisalabad.html">Custom Next.js Apps</a></li>
-                        <li><a href="seo-expert-in-faisalabad.html">Search Engine Optimization (SEO)</a></li>
-                        <li><a href="./#services">All Services</a></li>
+                        <li><a href="/wordpress-developer-in-faisalabad">WordPress Development</a></li>
+                        <li><a href="/shopify-developer-in-faisalabad">Shopify &amp; E-Commerce</a></li>
+                        <li><a href="/nextjs-developer-in-faisalabad">Custom Next.js Apps</a></li>
+                        <li><a href="/seo-expert-in-faisalabad">Search Engine Optimization (SEO)</a></li>
+                        <li><a href="/#services">All Services</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column footer-nav">
-                    <h4 class="footer-heading">Quick Links</h4>
+                    <h3 class="footer-heading">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="./">Home</a></li>
-                        <li><a href="works.html">Works</a></li>
-                        <li><a href="./#resume">Resume</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="./#testimonials">Testimonials</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/works">Works</a></li>
+                        <li><a href="/#resume">Resume</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/#testimonials">Testimonials</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/feedback">Feedback</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column footer-contact-col">
-                    <h4 class="footer-heading">CONTACT</h4>
+                    <h3 class="footer-heading">CONTACT</h3>
                     <ul class="footer-contact">
                         <li><a href="mailto:info@abdullahzafar.me">info@abdullahzafar.me</a></li>
-                        <li><a href="tel:+923026035284">041-302-6035284</a></li>
+                        <li><a href="tel:+923026035284">+92 302 6035284</a></li>
                         <li><span style="color: rgba(255, 255, 255, 0.8); font-size: 13px;">Block C People's Colony # 2, Faisalabad, 38090, Pakistan</span></li>
                     </ul>
                 </div>
@@ -354,13 +356,13 @@
                     AVAILABLE FOR FREELANCE
                 </div>
                 <div class="footer-legal-links">
-                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="/privacy-policy">Privacy Policy</a>
                     <span>•</span>
-                    <a href="disclaimer.html">Disclaimer</a>
+                    <a href="/disclaimer">Disclaimer</a>
                     <span>•</span>
-                    <a href="terms-of-use.html">Terms of Use</a>
+                    <a href="/terms-of-use">Terms of Use</a>
                     <span>•</span>
-                    <a href="feedback.html">Feedback</a>
+                    <a href="/feedback">Feedback</a>
                 </div>
                 <p class="footer-copyright">&copy; ALL RIGHTS RESERVED BY Abdullah Zafar</p>
             </div>

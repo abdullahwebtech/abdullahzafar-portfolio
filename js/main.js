@@ -187,7 +187,7 @@ const initMobileNavigation = () => {
                     </svg>
                 </a>
             </div>
-            <a href="contact.html" class="mobile-cta-btn">Contact Me!</a>
+            <a href="/contact" class="mobile-cta-btn">Contact Me!</a>
         `;
         navLinks.appendChild(actionsDiv);
     }

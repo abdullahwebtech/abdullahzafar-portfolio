@@ -527,7 +527,7 @@
     margin-bottom: 20px;
 }
 
-.sidebar-toc h3 {
+.sidebar-toc h2 {
     font-family: var(--font-heading);
     font-size: 14px; font-weight: 600;
     color: var(--charcoal-black);
@@ -557,7 +557,7 @@
 /* Share buttons */
 .share-widget { background: var(--white); border: 1px solid var(--border-gray); border-radius: 16px; padding: 20px; }
 
-.share-widget h3 {
+.share-widget h2 {
     font-family: var(--font-heading);
     font-size: 14px; font-weight: 600;
     color: var(--charcoal-black);
