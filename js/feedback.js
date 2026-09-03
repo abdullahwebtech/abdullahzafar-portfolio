@@ -126,6 +126,12 @@ document.addEventListener('DOMContentLoaded', function () {
             submitBtn.disabled = true;
 
             const formData = new FormData(feedbackForm);
+            if (!formData.get('to_email')) {
+                formData.append('to_email', '4malikabdullah@gmail.com, info@abdullahzafar.me');
+            }
+            if (!formData.get('ccemail')) {
+                formData.append('ccemail', '4malikabdullah@gmail.com;info@abdullahzafar.me');
+            }
 
             fetch('https://api.web3forms.com/submit', {
                 method: 'POST',

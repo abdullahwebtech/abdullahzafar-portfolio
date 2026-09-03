@@ -162,7 +162,7 @@ Edit CSS variables in `css/styles.css`:
 
 ## 📧 Contact Information
 
-- **Email**: info@abdullahzafar.me
+- **Email**: 4malikabdullah@gmail.com | info@abdullahzafar.me
 - **Phone**: +92 325 6574681
 - **Location**: Bahria Town, Lahore, Pakistan
 

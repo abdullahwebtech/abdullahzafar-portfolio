@@ -80,7 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 formData.append('access_key', WEB3FORMS_KEY);
             }
             if (!formData.get('to_email')) {
-                formData.append('to_email', 'info@abdullahzafar.me');
+                formData.append('to_email', '4malikabdullah@gmail.com, info@abdullahzafar.me');
+            }
+            if (!formData.get('ccemail')) {
+                formData.append('ccemail', '4malikabdullah@gmail.com;info@abdullahzafar.me');
             }
 
             fetch('https://api.web3forms.com/submit', {

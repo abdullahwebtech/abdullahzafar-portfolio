@@ -454,7 +454,7 @@ if ('IntersectionObserver' in window) {
 // CONSOLE MESSAGE
 // ===================================
 console.log('%c👋 Hi there! Looking for a WordPress or Shopify developer?', 'font-size: 16px; color: #7c3aed; font-weight: bold;');
-console.log('%cLet\'s work together: info@abdullahzafar.me', 'font-size: 14px; color: #a855f7;');
+console.log('%cLet\'s work together: 4malikabdullah@gmail.com | info@abdullahzafar.me', 'font-size: 14px; color: #a855f7;');
 
 // ===================================
 // HOMEPAGE CONTACT FORM logic moved to js/contact.js

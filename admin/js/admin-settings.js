@@ -60,7 +60,7 @@ async function loadSettings() {
         document.getElementById('siteName').value = settings.site_name || 'Abdullah Zafar';
         document.getElementById('siteUrl').value = settings.site_url || 'https://www.abdullahzafar.me';
         document.getElementById('authorName').value = settings.author_name || 'Abdullah Zafar';
-        document.getElementById('authorEmail').value = settings.author_email || 'info@abdullahzafar.me';
+        document.getElementById('authorEmail').value = settings.author_email || '4malikabdullah@gmail.com';
         document.getElementById('defaultOgImage').value = settings.default_og_image || '';
 
         document.getElementById('robotsContent').value = settings.robots_custom_rules || `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /blog/post.html?*preview=true\n\nSitemap: https://www.abdullahzafar.me/sitemap.xml`;
