@@ -141,13 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Form data collection
             const formData = new FormData(quoteForm);
             if (!formData.get('access_key')) {
-                formData.append('access_key', 'b560614f-4d62-4d5d-a3a5-a6b0bf9a4c41');
-            }
-            if (!formData.get('to_email')) {
-                formData.append('to_email', '4malikabdullah@gmail.com, info@abdullahzafar.me');
-            }
-            if (!formData.get('ccemail')) {
-                formData.append('ccemail', '4malikabdullah@gmail.com;info@abdullahzafar.me');
+                formData.append('access_key', '06375459-1d3a-48b4-b4da-b5685a59dade');
             }
             
             // Post via fetch to Web3Forms endpoint
@@ -157,13 +151,18 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .then(response => response.json())
             .then(result => {
-                quoteForm.style.display = 'none';
-                quoteSuccess.classList.add('active');
+                if (result.success) {
+                    quoteForm.style.display = 'none';
+                    quoteSuccess.classList.add('active');
+                    quoteSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    quoteForm.reset();
+                } else {
+                    alert(result.message || 'Something went wrong. Please try again or email directly to 4malikabdullah@gmail.com');
+                }
             })
             .catch(error => {
                 console.error('Submission notice:', error);
-                quoteForm.style.display = 'none';
-                quoteSuccess.classList.add('active');
+                alert('Could not submit form. Please email directly to 4malikabdullah@gmail.com or info@abdullahzafar.me');
             })
             .finally(() => {
                 submitBtn.textContent = originalText;

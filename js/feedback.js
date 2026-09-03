@@ -126,11 +126,8 @@ document.addEventListener('DOMContentLoaded', function () {
             submitBtn.disabled = true;
 
             const formData = new FormData(feedbackForm);
-            if (!formData.get('to_email')) {
-                formData.append('to_email', '4malikabdullah@gmail.com, info@abdullahzafar.me');
-            }
-            if (!formData.get('ccemail')) {
-                formData.append('ccemail', '4malikabdullah@gmail.com;info@abdullahzafar.me');
+            if (!formData.get('access_key')) {
+                formData.append('access_key', '06375459-1d3a-48b4-b4da-b5685a59dade');
             }
 
             fetch('https://api.web3forms.com/submit', {
@@ -139,15 +136,22 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .then(response => response.json())
             .then(data => {
-                feedbackForm.style.display = 'none';
-                feedbackSuccess.classList.add('active');
-                feedbackSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                if (data.success) {
+                    feedbackForm.style.display = 'none';
+                    feedbackSuccess.classList.add('active');
+                    feedbackSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    feedbackForm.reset();
+                } else {
+                    alert(data.message || 'Something went wrong. Please try again or email directly to 4malikabdullah@gmail.com');
+                }
             })
             .catch(error => {
-                // Graceful fallback display
-                feedbackForm.style.display = 'none';
-                feedbackSuccess.classList.add('active');
-                feedbackSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                console.error('Feedback submission notice:', error);
+                alert('Could not submit feedback. Please email directly to 4malikabdullah@gmail.com or info@abdullahzafar.me');
+            })
+            .finally(() => {
+                submitBtn.innerHTML = originalBtnHtml;
+                submitBtn.disabled = false;
             });
         });
     }

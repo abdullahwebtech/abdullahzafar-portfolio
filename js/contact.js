@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // ── Web3Forms Config ──
-    const WEB3FORMS_KEY = 'b560614f-4d62-4d5d-a3a5-a6b0bf9a4c41';
+    const WEB3FORMS_KEY = '06375459-1d3a-48b4-b4da-b5685a59dade';
 
     // ── Scroll Reveal ──
     const revealEls = document.querySelectorAll('.contact-reveal-up');
@@ -79,12 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!formData.get('access_key')) {
                 formData.append('access_key', WEB3FORMS_KEY);
             }
-            if (!formData.get('to_email')) {
-                formData.append('to_email', '4malikabdullah@gmail.com, info@abdullahzafar.me');
-            }
-            if (!formData.get('ccemail')) {
-                formData.append('ccemail', '4malikabdullah@gmail.com;info@abdullahzafar.me');
-            }
 
             fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
@@ -94,16 +88,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 .then(result => {
                     const formContainer = document.getElementById('contact-form-container');
                     const successEl = document.getElementById('contact-success');
-                    if (formContainer) formContainer.style.display = 'none';
-                    if (successEl) successEl.style.display = 'block';
-                    contactForm.reset();
+                    if (result.success) {
+                        if (formContainer) formContainer.style.display = 'none';
+                        if (successEl) {
+                            successEl.style.display = 'block';
+                            successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                        contactForm.reset();
+                    } else {
+                        alert(result.message || 'Something went wrong. Please try again or email directly to 4malikabdullah@gmail.com');
+                    }
                 })
                 .catch(error => {
                     console.error('Form submission notice:', error);
-                    const formContainer = document.getElementById('contact-form-container');
-                    const successEl = document.getElementById('contact-success');
-                    if (formContainer) formContainer.style.display = 'none';
-                    if (successEl) successEl.style.display = 'block';
+                    alert('Could not submit form. Please email directly to 4malikabdullah@gmail.com or info@abdullahzafar.me');
                 })
                 .finally(() => {
                     submitBtn.textContent = originalText;
